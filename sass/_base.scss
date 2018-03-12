@@ -1,0 +1,67 @@
+:root {
+    font-size: 62.5%; // 1rem = 10px
+
+    // css var 
+    --color-primary:#aaffc7;
+    --color-secondary: #215b63;
+    --color-grey: #8e8e8e;
+    --color-white:#fff;
+    
+    --main-border: 5px solid var(--color-primary);
+    --border-white: 2px var(--color-white) solid;
+
+    @media screen and (max-width: 1000px ) {
+        font-size: 50%; // 1rem = 8px
+    }
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+
+    //font base
+    font-size: 2.4rem;
+    color: var(--color-grey);
+}
+
+// Modifiers 
+.light {
+    font-weight: 300;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 10rem;
+    color: var(--color-primary);
+    letter-spacing: 3.7rem;
+}
+
+.row {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto; 
+ }
+
+// Reusables 
+
+.cta {
+    text-decoration: none;
+    color: var(--color-primary);
+    border: var(--main-border);
+    border-radius: 2rem;
+    background-color: transparent;
+    padding: 3rem 9rem;
+
+    &:hover {
+        background-color: var(--color-primary);
+        color: transparent;
+    }
+    
+}
