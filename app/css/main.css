@@ -91,7 +91,7 @@ body {
   padding: 3rem 9rem; }
   .cta:hover {
     background-color: var(--color-primary);
-    color: transparent; }
+    color: var(--color-white); }
 
 nav {
   background-color: var(--color-secondary);
@@ -286,5 +286,3 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 7rem; }
-
-/*# sourceMappingURL=main.css.map */

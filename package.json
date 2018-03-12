@@ -1,0 +1,26 @@
+{
+  "name": "devhouse-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhouserepo/devhouse-page.git"
+  },
+  "author": "Maciejowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devhouserepo/devhouse-page/issues"
+  },
+  "homepage": "https://github.com/devhouserepo/devhouse-page#readme",
+  "dependencies": {
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.0"
+  }
+}
